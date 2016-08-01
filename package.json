@@ -13,10 +13,10 @@
   "author": "Mike Kusold, forked and updated by Diya Das",
   "repository": {
     "type": "git",
-    "url": "https://github.com/InfH/todoist-habitica"
+    "url": "https://github.com/InfH/habitica-api"
   },
   "bugs": {
-    "url": "https://github.com/InfH/todoist-habitica/issues"
+    "url": "https://github.com/InfH/habitica-api/issues"
   },
   "license": "GPL v3",
   "devDependencies": {
