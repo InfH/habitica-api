@@ -1,23 +1,22 @@
 {
-  "name": "habitrpg-api",
-  "version": "0.1.2",
-  "description": "A Javascript wrapper for the HabitRPG api.",
-  "main": "lib/apiv2.js",
+  "name": "habitica-api",
+  "version": "0.0.1",
+  "description": "A Javascript wrapper for the Habitica api.",
+  "main": "lib/apiv3.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/*",
     "lint": "./node_modules/.bin/gulp lint"
   },
   "keywords": [
-    "habitrpg"
+    "habitica"
   ],
-  "author": "Mike Kusold",
+  "author": "Mike Kusold, forked and updated by Diya Das",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kusold/habitrpg-api"
+    "url": "https://github.com/InfH/todoist-habitica"
   },
   "bugs": {
-    "url": "https://github.com/Kusold/habitrpg-api/issues",
-    "email": "hello@mikekusold.com"
+    "url": "https://github.com/InfH/todoist-habitica/issues",
   },
   "license": "GPL v3",
   "devDependencies": {
@@ -29,7 +28,7 @@
     "jshint-stylish": "~0.1.5",
     "gulp-mocha": "~0.4.1",
     "gulp-notify": "~1.2.4",
-    "habitrpg": "git://github.com/HabitRPG/habitrpg.git#develop"
+    "habitica": "git://github.com/HabitRPG/habitrpg.git#develop"
   },
   "dependencies": {
     "superagent": "~0.17.0",
